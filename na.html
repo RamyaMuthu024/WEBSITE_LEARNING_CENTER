@@ -1,0 +1,146 @@
+<HTML>
+	<head>
+		<title>
+			Login IN
+		</title>
+	</head>
+	<style>
+     .{
+		margin:0px;
+		padding:0px;
+		box-sizing: border-box;
+	 }
+	 body{
+		background-image:url("login2.jpg");
+		background-repeat: no-repeat;
+       background-size: cover;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	 }
+	 .center
+	 {
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+	 }
+	 .center button{
+		padding: 10px 20px;
+		font-size: 15px;
+		font-weight:600;
+		color:#222;
+		background: #f5f5f5;
+		border:none;
+		outline: none;
+		cursor: pointer;
+		border-radius: 5px;
+	 }
+	 .popup {
+      position:  absolute;
+	  top:50%;
+	  left:50%;
+	  transform:translate(-50%,-50%) scale(1.25);
+	  width:380px;
+	  padding: 20px 30px;
+	  background:#eadaa6;
+	  box-shadow:2px 2px 5px 5px rgb(0,0,0,0.15);
+	  border-radius: 10px;
+	 }
+	 .popup .close-btn {
+		position: absolute;
+		top:10px;
+		right:10px;
+		width:15px;
+        height:15px;
+		background:rgb(138, 134, 107);
+		color: rgb(22, 22, 22);
+		text-align: center;
+		line-height: 15px;
+		border-radius: 15px;
+		cursor:pointer;
+	 }
+	 .popup .form h2{
+		text-align: center;
+		color:#222;
+		margin:10px 0px 20px;
+		font-size: 25px;
+	 }
+	 .popup .form .form-element
+	 {
+		margin:15px 0px;
+	 }
+	 .popup .form .form-element label{
+		font-size: 14px;
+		color: #222;
+	 }
+	 .popup .form .form-element input[type="text"],  .popup .form .form-element input[type="password"],.popup .form .form-element input[type="dob"]{
+      margin-top: 5px;
+	  display:block;
+	  width:100%;
+	  padding:10px;
+	  outline:none;
+	  border:1px solid #aaa;
+	  border-radius:5px;
+	 }
+	 .popup .form .form-element input[type ="checkbox"]
+	 {
+		margin-right:5px;
+	 }
+	 .popup .form .form-element button
+	 {
+       width:100%;
+	   height: 40px;
+	   border:none;
+	   outline:none;
+	   font-size: 16px;
+	   background:rgb(138, 134, 107);
+	   color: #f5f5f5;
+	   border-radius: 10px;
+	   cursor: pointer;
+	 }
+	 .popup .form .form-element a {
+		display: block;
+		text-align:right;
+		font-size:15px;
+        color:rgb(107, 74, 43);
+		text-decoration: none;
+		font-weight: 600;
+	 }
+	</style>
+	<script>
+    
+
+	</script>
+	<body>
+	<div class="center">
+		<button id="show-login">ACCOUNT</button>
+	</div>
+	<div class="popup">
+		<div class="close-btn">&times;</div>
+		<div class="form">
+            <h2>ENTER THE DETAILS</h2>
+            <div class="form-element">
+				<label for="email">USER NAME</label>
+				<input type="text" id="name" placeholder="ENTER YOUR NAME">
+			</div>
+			<div class="form-element">
+				<label for="email">EMAIL ID</label>
+				<input type="text" id="email" placeholder="ENTER YOUR EMAIL ID">
+			</div>
+			<div class="form-element">
+				<label for="password">PASSWORD</label>
+				<input type="password" id="password" placeholder="ENTER YOUR PASSWORD">
+			</div>
+            <div class="form-element">
+				<label for="date-of-birth">DATE OF BIRTH</label>
+				<input type="dob" id="date-of-birth" placeholder="DATE OF BIRTH">
+			</div>
+			<div  class="form-element">
+                <a href="su.html">CREATE AN ACCOUNT</a>
+			</div>
+			<div  class="form-element" >
+                <a href="js.html">LOGIN IN</a>
+			</div>
+		</div>
+	</div>
+	</body>
+</HTML>
